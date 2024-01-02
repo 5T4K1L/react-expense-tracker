@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Readex+Pro:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.travelContainer {
+  font-family: "Readex Pro", sans-serif;
+}
+
+.travelContainer .upper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 76px;
+}
+
+.travelContainer .upper p {
+  font-size: 25px;
+}
+
+.travelContainer .upper img {
+  height: 30px;
+}
+
+.travelContainer .contents {
+  background-color: #176b87;
+  color: white;
+  margin-top: 78px;
+  position: fixed;
+  bottom: 0;
+  height: 660px;
+  border-radius: 2em 2em 0 0;
+}
+
+.travelContainer .contents p {
+  font-size: 36px;
+  text-align: center;
+  padding: 78px 37px;
+}
+
+.travelContainer .contents span {
+  color: #c8dfff;
+}
+
+.travelContainer .contents input {
+  background: none;
+  border: none;
+  border-bottom: 2px white solid;
+  margin: 5px 1em;
+  width: calc(100% - 2em);
+  outline: none;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+.travelContainer .contents input:nth-child(1) {
+  font-size: 1.5em;
+  margin: 5px 1.35em;
+  width: calc(100% - 2.65em);
+  margin-bottom: 2em;
+}
+
+.travelContainer .contents button {
+  font-family: "Quicksand";
+  font-size: 20px;
+  color: white;
+  background-color: #0087b4;
+  padding: 1em 5em;
+  cursor: pointer;
+  border-radius: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+}
