@@ -8,9 +8,9 @@ const Greetings = ({ username }) => {
         <p>{username}</p>
       </div>
       <div>
-        <button>
+        {/* <button>
           <img src={history} alt="" />
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -8,9 +8,9 @@ const Expense = () => {
     <div className="expenseContainer">
       <div className="headerOne">
         <p>Spent on this week</p>
-        <button>
+        {/* <button>
           <img src={reset} style={{ height: 16 }} alt="" />
-        </button>
+        </button> */}
       </div>
 
       <ThisWeek></ThisWeek>
